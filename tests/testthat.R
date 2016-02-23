@@ -12,4 +12,4 @@ if (nchar(Sys.getenv("KBC_DATA_DIR")) > 0) {
   KBC_DATA_DIR <- Sys.getenv("KBC_DATA_DIR")
 }
 
-test_check("keboola.r.custom.application.example.package")
+test_check("keboola.r.custom.application.subclass")
